@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+body {
+    background-color: #4B4A67;
+    text-align: center;
+    height: 100vh;
+    
+}
+h1{
+    text-decoration:underline;
+    color:#cdbf5a;
+
+}
+.container {
+    margin-top: 2rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+
+.comp {
+    /* border: 2px solid black; */
+    height: 28vmin;
+    width: 90vmin;
+    background-color: #b6b7b8;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(63, 86, 83);
+}
+
+.user {
+    /* border: 2px solid black; */
+    height: 28vmin;
+    width: 90vmin;
+    background-color:#b6b7b8;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:rgb(63, 86, 83);
+}
+
+.comp h3 {
+    font-size: 35px;
+}
+
+.user h3 {
+
+    font-size: 40px;
+}
+
+.result {
+    /* border: 2px solid black; */
+    height: 10vmin;
+    
+    width: 70vmin;
+    color:rgb(63, 86, 83);
+    background-color: #dc955bb4;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top:
+}
+
+
+.info {
+    border: 2px solid;
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.userimage img{
+    /* margin-left: 65px;
+    margin-right: 35px;
+} */
+}
+
+#userscore {
+
+    width: 14vmin;
+    height: 14vmin;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#compscore {
+
+    width: 14vmin;
+    height: 14vmin;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#letsStop{
+    border: none;    
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: rgb(182, 157, 150);
+    font-style:oblique;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+
+}
+.hide{
+    display: none;
+}
+#start{
+    border: none;    
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: rgb(182, 157, 150);
+    font-style:oblique;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px;
+}
+#rock, #paper, #Scissor{
+    border: none;
+    width:fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 4vmin;
+    border-radius: 2rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-color: rgb(222, 184, 135);
+    font-size: 15px;
+    cursor: pointer;
+}
+#msg{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(0, 0, 0);
+    margin-top: 2vmin;
+
+}
+
+@media screen and (max-width: 619px) {
+    
+    h1{
+        font-size: 20px;
+    }
+    .comp, .user{
+        width: 70vmin;
+        height: 20vmin;
+    }
+    #userscore{
+        width: 10vmin;
+        height: 10vmin;
+    }
+    #compscore{
+        width: 10vmin;
+        height: 10vmin;
+    }
+
+    .compimage img{
+        width: 100px;
+    }
+    .userimage img{
+        width: 100px;
+    }
+    .info{
+        width: 10vmin;
+        height: 15vmin;
+        border-radius: 10px;
+        
+    }
+    .comp h3{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .user h3{
+        font-size: 20px;
+    }
+    #userscore{
+        font-size: 30px;
+        
+        font-weight: 900;
+    }
+    #compscore{
+        font-size: 30px;
+        font-weight: 900;
+    }
+    #compinfo{
+        font-size: 8px;
+        font-weight: 900;
+    }
+    #userinfo{
+        font-size: 8px;
+        font-weight: 900;
+    }
+    .result{
+        width:40vmin;
+        height: 5vmin;
+    }
+    #msg{
+        font-size: 10px;
+        margin-top: 1vmin;
+    }
+
+    
+  }

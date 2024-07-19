@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>
+            Rock Paper Scissors Game
+        </h1>
+        <div class="container">
+            <div class="comp">
+                <h3>Comp.</h3>
+                <div class="compimage">
+                    <img id="compsymbol" src="images/lets.png" width="200px" alt="img">
+                </div>
+                <div class="info">
+                    <div id="compinfo">SCORE</div>
+                    <div id="compscore">0</div>
+                </div>
+            </div>
+            <div class="user">
+                <h3>You</h3>
+                <div class="userimage">
+                    <img id = "usersymbol" src="images/start.png" width="200px" alt="img">
+                </div>
+                <div class="info">
+                    <div id="userinfo">SCORE</div>
+                    <div id="userscore">0</div>
+                </div>
+            </div>
+        </div>
+        <div id="playbtn">
+            <button class = "letsStart" id="start"><b>Start  ▶</b></button>
+            <button class = "play hide" id = "letsStop">Stop</button>
+            <button class="btn hide" id="rock">Rock</button>
+            <button class="btn hide" id="paper">Paper</button>
+            <button class="btn hide" id="Scissor">Scissor</button>
+        </div>
+        <div class="result">
+            <div id="msg">_Results_</div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
